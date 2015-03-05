@@ -1,0 +1,1 @@
+cmd_/home/gahara/doIt1/myMod.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.8.6-030806-generic/scripts/module-common.lds --build-id  -o /home/gahara/doIt1/myMod.ko /home/gahara/doIt1/myMod.o /home/gahara/doIt1/myMod.mod.o

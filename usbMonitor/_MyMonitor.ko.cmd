@@ -1,0 +1,1 @@
+cmd_/home/gahara/usbMonitor/MyMonitor.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.8.6-030806-generic/scripts/module-common.lds --build-id  -o /home/gahara/usbMonitor/MyMonitor.ko /home/gahara/usbMonitor/MyMonitor.o /home/gahara/usbMonitor/MyMonitor.mod.o
